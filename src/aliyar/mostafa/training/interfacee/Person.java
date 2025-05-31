@@ -13,7 +13,7 @@ public class Person extends NamedObject implements CanTack,Nameable {
 
     @Override
     public String getName() {
-        return Person.this.getName();
+        return Person.this.name;
     }
 
     @Override
