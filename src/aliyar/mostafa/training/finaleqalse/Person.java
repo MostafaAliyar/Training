@@ -14,7 +14,7 @@ public class Person  {
     @Override
         public boolean equals(Object o) {
         Person person = (Person) o;
-        return this.Cod == person.Cod&& Objects.equals(this.name, person.name) ||this.age==person.age;
+        return this.Cod == person.Cod && Objects.equals(this.name, person.name) ||this.age==person.age;
     }
 
     public void setName(String name) {
