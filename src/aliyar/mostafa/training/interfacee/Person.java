@@ -1,6 +1,7 @@
 package aliyar.mostafa.training.interfacee;
 
 public class Person extends NamedObject implements CanTack,Nameable {
+    private String name;
     @Override
     public void tack() {
 
